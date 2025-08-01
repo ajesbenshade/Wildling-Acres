@@ -3,22 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wildling Acres - Premium Garlic Producer</title>
+    <meta name="description" content="Wildling Acres: Organic hardneck garlic farm in Salem, Ohio. Buy premium garlic online for retail shipping. Sustainably grown, hand-harvested varieties with exceptional flavor.">
+    <meta name="keywords" content="organic garlic, hardneck garlic, buy garlic online, garlic farm Salem Ohio, retail garlic shipping">
+    <title>Wildling Acres - Organic Garlic Farm in Salem, Ohio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Snipcart Integration for E-Commerce -->
+    <script async src="https://cdn.snipcart.com/themes/v3.3.0/default/snipcart.js"></script>
+    <div hidden id="snipcart" data-api-key="[YOUR_SNIPCART_API_KEY]" data-config-modal-style="side"></div>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>Wildling Acres</h2>
+                <img src="images/logo.png" alt="Wildling Acres Organic Hardneck Garlic Logo" style="height:60px;width:auto;vertical-align:middle;">
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#products">Products</a></li>
                 <li><a href="#growing">Growing Process</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#planting">Planting Guide</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -31,61 +38,111 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Premium Garlic from Wildling Acres</h1>
-            <p>Sustainably grown, hand-harvested garlic with exceptional flavor and quality</p>
-            <button class="cta-button">Explore Our Garlic</button>
-        </div>
-        <div class="hero-image">
-            <div class="garlic-illustration">🧄</div>
+        <div class="hero-content container">
+            <div>
+                <h1>Premium Organic Garlic from Wildling Acres</h1>
+                <p>Sustainably grown in Salem, Ohio. Hand-harvested hardneck varieties perfect for cooking, planting, or gifting. Now available for online retail shipping across the US.</p>
+                <button class="cta-button">Shop Garlic Now</button>
+            </div>
+            <div class="hero-image">
+                <div class="garlic-illustration">🧄</div> <!-- Replace with <img src="images/hero-garlic.jpg" alt="Organic garlic bulbs from Wildling Acres"> -->
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
     <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>About Wildling Acres</h2>
-                    <p>Located in the heart of agricultural country, Wildling Acres has been dedicated to growing premium garlic for over a decade. Our commitment to sustainable farming practices and attention to detail ensures that every bulb we harvest meets the highest standards of quality and flavor.</p>
-                    <p>We specialize in heirloom varieties that have been carefully selected for their robust flavor profiles and superior storage capabilities. Our garlic is grown without synthetic pesticides, using only organic methods that respect both the land and our customers' health.</p>
-                    <div class="farm-stats">
-                        <div class="stat">
-                            <h3>10+</h3>
-                            <p>Years of Experience</p>
-                        </div>
-                        <div class="stat">
-                            <h3>8</h3>
-                            <p>Garlic Varieties</p>
-                        </div>
-                        <div class="stat">
-                            <h3>100%</h3>
-                            <p>Organic Growing</p>
-                        </div>
+        <div class="container about-content">
+            <div>
+                <h2>About Wildling Acres</h2>
+                <p>Nestled in the fertile soils of Salem, Ohio, Wildling Acres is a family-owned organic garlic farm dedicated to producing the finest hardneck garlic. For over 10 years, we've used sustainable, chemical-free methods to cultivate heirloom varieties that thrive in our northern climate. Our garlic is known for its bold flavors, large cloves, and long shelf life—ideal for home cooks, gardeners, and gourmet enthusiasts.</p>
+                <p>We prioritize soil health with crop rotation, cover crops, and natural compost, ensuring our products are not only delicious but also environmentally responsible. Whether you're buying for your kitchen or to plant in your garden, our garlic ships fresh and ready nationwide.</p>
+                <div class="farm-stats">
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Years Growing Garlic</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3</h3>
+                        <p>Hardneck Varieties</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Organic & Sustainable</p>
                     </div>
                 </div>
-                <div class="about-image">
-                    <div class="farm-illustration">🌱</div>
-                </div>
+            </div>
+            <div class="about-image">
+                <img src="images/logo.png" alt="Wildling Acres Organic Hardneck Garlic Logo" style="max-width:220px;width:100%;height:auto;display:block;margin:0 auto;">
             </div>
         </div>
     </section>
 
-    <!-- Products Section -->
+    <!-- Products Section (Now with E-Commerce) -->
     <section id="products" class="products">
         <div class="container">
-            <h2>Our Garlic Varieties</h2>
+            <h2>Our Organic Hardneck Garlic Varieties</h2>
+            <p>Shop our premium selections below. All garlic is sold by the pound, shipped fresh during harvest season (July-August). Prices include basic packaging; shipping calculated at checkout.</p>
             <div class="products-grid">
                 <div class="product-card">
-                    <div class="product-image">🧄</div>
-                    <h3>Hardneck Garlic</h3>
-                    <p>Cold-hardy varieties perfect for northern climates. Strong, complex flavors with excellent storage life.</p>
+                    <div class="product-image">🧄</div> <!-- Replace with img -->
+                    <h3>German Extra Hardy</h3>
+                    <p>Robust, spicy flavor with large cloves. Excellent for roasting and storing. Cold-hardy and disease-resistant.</p>
                     <ul>
-                        <li>German Extra Hardy</li>
-                        <li>Music</li>
-                        <li>Chesnok Red</li>
+                        <li>4-6 large cloves per bulb</li>
+                        <li>Stores up to 6-9 months</li>
+                        <li>Perfect for northern gardens</li>
                     </ul>
-                    <button class="product-btn">Learn More</button>
+                    <p class="price">$15.00 / lb</p>
+                    <button class="product-btn snipcart-add-item"
+                        data-item-id="german-extra-hardy"
+                        data-item-price="15.00"
+                        data-item-url="/"
+                        data-item-description="Organic German Extra Hardy garlic from Wildling Acres"
+                        data-item-name="German Extra Hardy Garlic"
+                        data-item-weight="454"> <!-- 454g = 1lb for shipping calc -->
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧄</div>
+                    <h3>Music</h3>
+                    <p>Mild yet rich taste with pinkish skins. Great for raw use in salads or pesto. High yield and easy to peel.</p>
+                    <ul>
+                        <li>4-7 cloves per bulb</li>
+                        <li>Stores 9-12 months</li>
+                        <li>Beloved by chefs</li>
+                    </ul>
+                    <p class="price">$14.00 / lb</p>
+                    <button class="product-btn snipcart-add-item"
+                        data-item-id="music"
+                        data-item-price="14.00"
+                        data-item-url="/"
+                        data-item-description="Organic Music garlic from Wildling Acres"
+                        data-item-name="Music Garlic"
+                        data-item-weight="454">
+                        Add to Cart
+                    </button>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">🧄</div>
+                    <h3>Chesnok Red</h3>
+                    <p>Sweet when roasted, with a garlicky kick. Purple-striped wrappers make it visually stunning. Ideal for baking.</p>
+                    <ul>
+                        <li>9-10 small cloves per bulb</li>
+                        <li>Stores 4-6 months</li>
+                        <li>Excellent for gourmet dishes</li>
+                    </ul>
+                    <p class="price">$16.00 / lb</p>
+                    <button class="product-btn snipcart-add-item"
+                        data-item-id="chesnok-red"
+                        data-item-price="16.00"
+                        data-item-url="/"
+                        data-item-description="Organic Chesnok Red garlic from Wildling Acres"
+                        data-item-name="Chesnok Red Garlic"
+                        data-item-weight="454">
+                        Add to Cart
+                    </button>
                 </div>
             </div>
         </div>
@@ -94,37 +151,68 @@
     <!-- Growing Process Section -->
     <section id="growing" class="growing">
         <div class="container">
-            <h2>Our Growing Process</h2>
+            <h2>Our Sustainable Growing Process</h2>
             <div class="process-timeline">
                 <div class="process-step">
                     <div class="step-number">1</div>
                     <div class="step-content">
                         <h3>Soil Preparation</h3>
-                        <p>We begin with rich, well-draining soil amended with organic compost and natural fertilizers.</p>
+                        <p>We enrich our Salem, OH soils with organic matter, ensuring nutrient-rich beds without chemicals.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">2</div>
                     <div class="step-content">
                         <h3>Planting</h3>
-                        <p>Garlic cloves are planted in fall, allowing them to develop strong root systems over winter.</p>
+                        <p>Cloves are planted in fall, mulched heavily to protect against Ohio winters.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">3</div>
                     <div class="step-content">
                         <h3>Care & Maintenance</h3>
-                        <p>Regular weeding, watering, and organic pest management throughout the growing season.</p>
+                        <p>Hand-weeding, natural pest control, and careful watering through spring and summer.</p>
                     </div>
                 </div>
                 <div class="process-step">
                     <div class="step-number">4</div>
                     <div class="step-content">
                         <h3>Harvest & Curing</h3>
-                        <p>Hand-harvested at peak maturity and carefully cured for optimal flavor and storage.</p>
+                        <p>Dug by hand in July, cured for 2-4 weeks to enhance flavor and storage life before shipping.</p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- New Benefits Section -->
+    <section id="benefits" class="about"> <!-- Reusing about styles for consistency -->
+        <div class="container">
+            <h2>Benefits of Our Organic Hardneck Garlic</h2>
+            <p>Our garlic isn't just food—it's a health booster grown naturally in Salem, Ohio. Here's why customers love it:</p>
+            <ul>
+                <li><strong>Rich in Allicin</strong>: Supports immune health and has natural antibacterial properties.</li>
+                <li><strong>Superior Flavor</strong>: Bolder than store-bought, perfect for elevating recipes.</li>
+                <li><strong>Long Storage</strong>: Lasts months without sprouting, reducing waste.</li>
+                <li><strong>Eco-Friendly</strong>: Organic methods protect pollinators and soil for future generations.</li>
+                <li><strong>Versatile</strong>: Use in cooking, as seed garlic for planting, or even in natural remedies.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- New Planting Guide Section -->
+    <section id="planting" class="products"> <!-- Reusing products styles -->
+        <div class="container">
+            <h2>Planting Guide for Home Gardeners</h2>
+            <p>Buying our garlic for planting? Follow these tips for success in your own backyard:</p>
+            <ol>
+                <li><strong>Timing</strong>: Plant in fall (September-November) for harvest next summer.</li>
+                <li><strong>Soil</strong>: Well-draining, fertile soil with pH 6.5-7.0.</li>
+                <li><strong>Spacing</strong>: 6 inches apart, 2-3 inches deep, pointy end up.</li>
+                <li><strong>Care</strong>: Mulch for weed control, water moderately, harvest when leaves brown.</li>
+                <li><strong>Tip</strong>: Our hardneck varieties are ideal for zones 3-6, like Ohio's climate.</li>
+            </ol>
+            <p>Order seed garlic now and grow your own!</p>
         </div>
     </section>
 
@@ -137,17 +225,19 @@
                     <h3>Contact Information</h3>
                     <div class="contact-item">
                         <strong>📍 Address:</strong>
-                        <p>Wildling Acres<br>
-                        Salem, Ohio</p>
+                        <p>Wildling Acres<br>Salem, Ohio 44460</p>
                     </div>
                     <div class="contact-item">
                         <strong>📧 Email:</strong>
-                        <p>info@locustlanefarms.com</p>
+                        <p>info@wildlingacres.com</p>
                     </div>
                     <div class="contact-item">
-                        <strong>🕒 Farm Stand Hours:</strong>
-                        <p>Monday - Saturday: 9AM - 6PM<br>
-                        Sunday: 10AM - 4PM</p>
+                        <strong>🕒 Hours:</strong>
+                        <p>Online orders 24/7<br>Farm visits by appointment</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📦 Shipping:</strong>
+                        <p>US-wide via USPS. Orders ship within 3-5 business days during season.</p>
                     </div>
                 </div>
                 <div class="contact-form">
@@ -171,33 +261,31 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Wildling Acres</h3>
-                    <p>Premium garlic grown with care and passion since 2014.</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#products">Products</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Follow Us</h3>
-                    <div class="social-links">
-                        <a href="#">Facebook</a>
-                        <a href="https://www.instagram.com/locustlanefarmers/">Instagram</a>
-                        <a href="#">Twitter</a>
-                    </div>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Wildling Acres</h3>
+                <p>Organic hardneck garlic from Salem, Ohio. Shop online for retail shipping.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Wildling Acres. All rights reserved.</p>
-            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2025 Wildling Acres. All rights reserved. | Organic garlic for online retail shipping.
         </div>
     </footer>
 
